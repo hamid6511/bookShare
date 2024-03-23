@@ -10,8 +10,9 @@
 
         public int YearPublished { get; set; }
 
-        public string Cover { get; set; } 
+        public string Cover { get; set; }
 
-    
+        public Guid UserId { get; set; }
+
     }
 }
